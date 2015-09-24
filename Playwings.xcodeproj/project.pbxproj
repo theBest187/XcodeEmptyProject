@@ -7,50 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		552FDDB21BB372C7004155E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 552FDDB11BB372C7004155E0 /* main.m */; };
-		552FDDB51BB372C7004155E0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 552FDDB41BB372C7004155E0 /* AppDelegate.m */; };
-		552FDDB81BB372C7004155E0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 552FDDB71BB372C7004155E0 /* ViewController.m */; };
-		552FDDBB1BB372C7004155E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 552FDDB91BB372C7004155E0 /* Main.storyboard */; };
-		552FDDBD1BB372C7004155E0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 552FDDBC1BB372C7004155E0 /* Images.xcassets */; };
-		552FDDC01BB372C7004155E0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 552FDDBE1BB372C7004155E0 /* LaunchScreen.xib */; };
-		552FDDCC1BB372C7004155E0 /* PlaywingsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 552FDDCB1BB372C7004155E0 /* PlaywingsTests.m */; };
+		950ACC761BB3825C00672A34 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 950ACC6F1BB3825C00672A34 /* AppDelegate.m */; settings = {ASSET_TAGS = (); }; };
+		950ACC771BB3825C00672A34 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 950ACC711BB3825C00672A34 /* LaunchScreen.xib */; settings = {ASSET_TAGS = (); }; };
+		950ACC781BB3825C00672A34 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 950ACC731BB3825C00672A34 /* Images.xcassets */; settings = {ASSET_TAGS = (); }; };
+		950ACC791BB3825C00672A34 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 950ACC741BB3825C00672A34 /* Info.plist */; settings = {ASSET_TAGS = (); }; };
+		950ACC7A1BB3825C00672A34 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 950ACC751BB3825C00672A34 /* main.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		552FDDC61BB372C7004155E0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 552FDDA41BB372C6004155E0 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 552FDDAB1BB372C6004155E0;
-			remoteInfo = Playwings;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		552FDDAC1BB372C7004155E0 /* Playwings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Playwings.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		552FDDB01BB372C7004155E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		552FDDB11BB372C7004155E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		552FDDB31BB372C7004155E0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		552FDDB41BB372C7004155E0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		552FDDB61BB372C7004155E0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		552FDDB71BB372C7004155E0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		552FDDBA1BB372C7004155E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		552FDDBC1BB372C7004155E0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		552FDDBF1BB372C7004155E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		552FDDC51BB372C7004155E0 /* PlaywingsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlaywingsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		552FDDCA1BB372C7004155E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		552FDDCB1BB372C7004155E0 /* PlaywingsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlaywingsTests.m; sourceTree = "<group>"; };
+		950ACC6E1BB3825C00672A34 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		950ACC6F1BB3825C00672A34 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		950ACC721BB3825C00672A34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		950ACC731BB3825C00672A34 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		950ACC741BB3825C00672A34 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		950ACC751BB3825C00672A34 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		552FDDA91BB372C6004155E0 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		552FDDC21BB372C7004155E0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -73,7 +50,6 @@
 			isa = PBXGroup;
 			children = (
 				552FDDAC1BB372C7004155E0 /* Playwings.app */,
-				552FDDC51BB372C7004155E0 /* PlaywingsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -81,25 +57,10 @@
 		552FDDAE1BB372C7004155E0 /* Playwings */ = {
 			isa = PBXGroup;
 			children = (
-				552FDDB31BB372C7004155E0 /* AppDelegate.h */,
-				552FDDB41BB372C7004155E0 /* AppDelegate.m */,
-				552FDDB61BB372C7004155E0 /* ViewController.h */,
-				552FDDB71BB372C7004155E0 /* ViewController.m */,
-				552FDDB91BB372C7004155E0 /* Main.storyboard */,
-				552FDDBC1BB372C7004155E0 /* Images.xcassets */,
-				552FDDBE1BB372C7004155E0 /* LaunchScreen.xib */,
-				552FDDAF1BB372C7004155E0 /* Supporting Files */,
+				950ACC6D1BB3825C00672A34 /* app delegate */,
+				950ACC701BB3825C00672A34 /* Supporting Files */,
 			);
 			path = Playwings;
-			sourceTree = "<group>";
-		};
-		552FDDAF1BB372C7004155E0 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				552FDDB01BB372C7004155E0 /* Info.plist */,
-				552FDDB11BB372C7004155E0 /* main.m */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		552FDDC81BB372C7004155E0 /* PlaywingsTests */ = {
@@ -117,6 +78,26 @@
 				552FDDCA1BB372C7004155E0 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		950ACC6D1BB3825C00672A34 /* app delegate */ = {
+			isa = PBXGroup;
+			children = (
+				950ACC6E1BB3825C00672A34 /* AppDelegate.h */,
+				950ACC6F1BB3825C00672A34 /* AppDelegate.m */,
+			);
+			path = "app delegate";
+			sourceTree = "<group>";
+		};
+		950ACC701BB3825C00672A34 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				950ACC711BB3825C00672A34 /* LaunchScreen.xib */,
+				950ACC731BB3825C00672A34 /* Images.xcassets */,
+				950ACC741BB3825C00672A34 /* Info.plist */,
+				950ACC751BB3825C00672A34 /* main.m */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,24 +120,6 @@
 			productReference = 552FDDAC1BB372C7004155E0 /* Playwings.app */;
 			productType = "com.apple.product-type.application";
 		};
-		552FDDC41BB372C7004155E0 /* PlaywingsTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 552FDDD21BB372C7004155E0 /* Build configuration list for PBXNativeTarget "PlaywingsTests" */;
-			buildPhases = (
-				552FDDC11BB372C7004155E0 /* Sources */,
-				552FDDC21BB372C7004155E0 /* Frameworks */,
-				552FDDC31BB372C7004155E0 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				552FDDC71BB372C7004155E0 /* PBXTargetDependency */,
-			);
-			name = PlaywingsTests;
-			productName = PlaywingsTests;
-			productReference = 552FDDC51BB372C7004155E0 /* PlaywingsTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -168,10 +131,6 @@
 				TargetAttributes = {
 					552FDDAB1BB372C6004155E0 = {
 						CreatedOnToolsVersion = 6.1.1;
-					};
-					552FDDC41BB372C7004155E0 = {
-						CreatedOnToolsVersion = 6.1.1;
-						TestTargetID = 552FDDAB1BB372C6004155E0;
 					};
 				};
 			};
@@ -189,7 +148,6 @@
 			projectRoot = "";
 			targets = (
 				552FDDAB1BB372C6004155E0 /* Playwings */,
-				552FDDC41BB372C7004155E0 /* PlaywingsTests */,
 			);
 		};
 /* End PBXProject section */
@@ -199,16 +157,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				552FDDBB1BB372C7004155E0 /* Main.storyboard in Resources */,
-				552FDDC01BB372C7004155E0 /* LaunchScreen.xib in Resources */,
-				552FDDBD1BB372C7004155E0 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		552FDDC31BB372C7004155E0 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				950ACC771BB3825C00672A34 /* LaunchScreen.xib in Resources */,
+				950ACC781BB3825C00672A34 /* Images.xcassets in Resources */,
+				950ACC791BB3825C00672A34 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,43 +170,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				552FDDB81BB372C7004155E0 /* ViewController.m in Sources */,
-				552FDDB51BB372C7004155E0 /* AppDelegate.m in Sources */,
-				552FDDB21BB372C7004155E0 /* main.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		552FDDC11BB372C7004155E0 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				552FDDCC1BB372C7004155E0 /* PlaywingsTests.m in Sources */,
+				950ACC7A1BB3825C00672A34 /* main.m in Sources */,
+				950ACC761BB3825C00672A34 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		552FDDC71BB372C7004155E0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 552FDDAB1BB372C6004155E0 /* Playwings */;
-			targetProxy = 552FDDC61BB372C7004155E0 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		552FDDB91BB372C7004155E0 /* Main.storyboard */ = {
+		950ACC711BB3825C00672A34 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				552FDDBA1BB372C7004155E0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		552FDDBE1BB372C7004155E0 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				552FDDBF1BB372C7004155E0 /* Base */,
+				950ACC721BB3825C00672A34 /* Base */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";
@@ -344,6 +270,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Playwings/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -354,42 +281,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Playwings/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		552FDDD31BB372C7004155E0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = PlaywingsTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Playwings.app/Playwings";
-			};
-			name = Debug;
-		};
-		552FDDD41BB372C7004155E0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = PlaywingsTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Playwings.app/Playwings";
 			};
 			name = Release;
 		};
@@ -412,14 +306,7 @@
 				552FDDD11BB372C7004155E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		552FDDD21BB372C7004155E0 /* Build configuration list for PBXNativeTarget "PlaywingsTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				552FDDD31BB372C7004155E0 /* Debug */,
-				552FDDD41BB372C7004155E0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
